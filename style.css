@@ -83,9 +83,10 @@ header #bn-top img{
 }
 
 #about-me{
-    background-image:  linear-gradient(155deg, rgba(255, 255, 255, 0.089), transparent);
+    background-image:  linear-gradient(155deg, rgba(52, 34, 134, 0.781), transparent);
     box-shadow: 2px 4px 6px rgba(0, 0, 0, .1), inset 0 0 0 2px rgba(255, 255, 255, 0.1); 
     border-radius: 0.25rem;
+    /* margin-top: 100px; */
 }
 
 #about-me div{
@@ -107,4 +108,81 @@ header #bn-top img{
     margin: 50px 0;
     width: 650px;
     text-align: justify;
+}
+
+#recipie{
+    margin:100px 0 50px;
+}
+
+#recipie-top{
+    margin: 10px 0;
+    text-align: center;
+}
+#recipe-container{
+    justify-content: space-between;
+    margin: 50px 0;
+}
+#recipe-container .common-div{
+    width: 30%;
+    background-image:  linear-gradient(155deg, rgba(255, 255, 255, 0.089), transparent);
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, .1), inset 0 0 0 2px rgba(255, 255, 255, 0.1);
+    border-radius: 0.5rem;
+}
+#recipe-container .common-div img{
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 0.5rem;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, .1), inset 0 0 0 2px rgba(255, 255, 255, 0.1);
+    margin-top: 50px;
+}
+
+#recipe-container .common-div .recipe-text {
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+}
+
+#recipe-container .common-div .recipe-text p{
+    text-align: justify;
+    padding: 20px;
+}
+
+#reputation{
+    justify-content: space-between;
+    margin: 100px 0;
+    background-image:  linear-gradient(155deg, rgba(255, 255, 255, 0.089), transparent);
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, .1), inset 0 0 0 2px rgba(255, 255, 255, 0.1);
+    border-radius: 0.5rem;
+    padding:50px;
+}
+.common-repu .repu-text{
+    font-size: 60px;
+    text-align: center;
+}
+
+.newsletter{
+    text-align: center;
+}
+.newsletter form{
+    justify-content: center;
+    align-items: center;
+}
+.newsletter form input{
+    display: inline-block;
+    margin-right: 10px;
+    width: 300px;
+    height: 35px;
+    border-radius: 0.4rem;
+    border: none;
+    outline: none;
+}
+
+footer{
+    text-align: center;
+    background-image:  linear-gradient(155deg, rgba(233, 26, 26, 0.877), transparent);
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, .1), inset 0 0 0 2px rgba(255, 255, 255, 0.1);
+    border-radius: 0.5rem;
+    padding: 50px;
 }
