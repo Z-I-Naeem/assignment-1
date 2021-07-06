@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Nunito&family=Raleway&display=swap');
+
+/* 
+font-family: 'Anton', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Raleway', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #080f27;
+    color: rgb(247, 247, 247);
+    padding: 15px 30px;
+    font-family: 'Anton', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    background-image: linear-gradient(25deg,rgb(214, 52, 30),orange);
+    padding: 10px 40px;
+    margin: 20px 0px;
+    border-radius: 40px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.flex{
+    display: flex;
+}
+
+header{
+    margin:10px 0;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+header div{
+    justify-content: center;
+    align-items: center;
+}
+
+.bn-clr{
+    color: rgb(255, 94, 1);
+}
+
+header #bn-top img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+header #bn-top #bn-text{
+    font-size: 40px;
+}
+
+#bn #left{
+    margin-left: 40px;
+    width: 70%;
+}
+
+#bn #left .lg-text{
+    font-size: 60px;
+    margin-top: 60px;
+}
+#bn #left .sm-text{
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    margin: 10px 0;
+}
+#bn #right img{
+    width: 80%;
+}
