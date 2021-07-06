@@ -36,6 +36,7 @@ header{
     margin:10px 0;
     justify-content: center;
     align-items: center;
+    /* margin: 50px; */
     
     
 }
@@ -56,10 +57,13 @@ header #bn-top img{
     padding: 10px;
 }
 
-header #bn-top #bn-text{
+.bn-text{
     font-size: 40px;
 }
 
+#bn{
+    margin: 100px 0;
+}
 #bn #left{
     margin-left: 40px;
     width: 70%;
@@ -69,11 +73,38 @@ header #bn-top #bn-text{
     font-size: 60px;
     margin-top: 60px;
 }
-#bn #left .sm-text{
+.sm-text{
     font-size: 20px;
     font-family: 'Raleway', sans-serif;
     margin: 10px 0;
 }
 #bn #right img{
     width: 80%;
+}
+
+#about-me{
+    background-image:  linear-gradient(155deg, rgba(255, 255, 255, 0.089), transparent);
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, .1), inset 0 0 0 2px rgba(255, 255, 255, 0.1); 
+    border-radius: 0.25rem;
+}
+
+#about-me div{
+    width: 50%;
+}
+
+#me-left{
+    margin-left: 40px;
+}
+
+#me-right{
+    margin-top: 200px;
+}
+.me-top{
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 1px;
+}
+.me-text{
+    margin: 50px 0;
+    width: 650px;
+    text-align: justify;
 }
